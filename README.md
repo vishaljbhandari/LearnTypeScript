@@ -1,4 +1,4 @@
-# typescript
+# Typescript
 
 Welcome to the learn_typescript Repository!
 
