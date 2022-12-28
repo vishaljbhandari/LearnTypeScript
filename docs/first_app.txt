@@ -1,0 +1,43 @@
+Microsoft Windows [Version 10.0.22000.1335]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Repositories\EXAMPLE\FINAL\learn_typescript>mkdir first_app
+
+C:\Repositories\EXAMPLE\FINAL\learn_typescript>ls -ltr
+total 1
+-rw-r--r-- 1 visha 197609 102 Dec 28 23:02 README.md
+drwxr-xr-x 1 visha 197609   0 Dec 29 00:38 docs
+drwxr-xr-x 1 visha 197609   0 Dec 29 01:10 first_app
+
+C:\Repositories\EXAMPLE\FINAL\learn_typescript>cd first_app
+
+C:\Repositories\EXAMPLE\FINAL\learn_typescript\first_app>npm init -y
+Wrote to C:\Repositories\EXAMPLE\FINAL\learn_typescript\first_app\package.json:
+
+{
+  "name": "first_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\Repositories\EXAMPLE\FINAL\learn_typescript\first_app> Rem - Installing Axios
+
+C:\Repositories\EXAMPLE\FINAL\learn_typescript\first_app>npm install axios
+
+added 9 packages, and audited 10 packages in 987ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Repositories\EXAMPLE\FINAL\learn_typescript\first_app>
